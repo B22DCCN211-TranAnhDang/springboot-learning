@@ -1,0 +1,22 @@
+# ==============================================================================
+# GITIGNORE CHUẨN CHO DỰ ÁN SPRING BOOT & JAVA BACKEND
+# ==============================================================================
+
+# 1. Thư mục biên dịch của Maven (Chứa các file .class, jar sinh ra khi build)
+target/
+**/target/
+
+# 2. File cấu hình của các IDE (Mỗi máy lập trình viên có cấu hình riêng)
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# 3. File tạm, log và file hệ thống
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+cp.txt
